@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6", 
+    "module": "ESNext", 
+    "outDir": "./dist", 
+    "baseUrl": "./src",
+    "strict": true, 
+    "moduleResolution": "node",
+    "esModuleInterop": true, 
+    "skipLibCheck": true, 
+    "forceConsistentCasingInFileNames": true, 
+    "declaration": true,
+    "declarationMap": true,
+    "paths": {
+      "@aitmed/protorepo": ["../node_modules/@aitmed/protorepo/dist/types/js/index"]
+    }
+  },
+  "include": [
+    "./src", "src/ecos.d.ts",
+  ]
+}
